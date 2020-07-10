@@ -21,7 +21,7 @@ public class Coin : MonoBehaviour
     {
         if (isCollected)
         {
-            gameObject.GetComponent<Rigidbody>().velocity = character.GetComponent<Rigidbody>().velocity;
+            //gameObject.GetComponent<Rigidbody>().velocity = character.GetComponent<Rigidbody>().velocity;
         }
         else if (isTarget)
         {
